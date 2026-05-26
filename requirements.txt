@@ -1,0 +1,21 @@
+# ──────────────────────────────────────────────────────
+# PlateScan India — Dependencies
+# Python >= 3.9  recommended
+# ──────────────────────────────────────────────────────
+
+# Core CV & ML
+ultralytics>=8.0.0          # YOLOv8
+opencv-python>=4.8.0        # Frame processing
+easyocr>=1.7.0              # OCR engine
+Pillow>=10.0.0              # Image I/O
+
+# UI
+streamlit>=1.32.0           # Dashboard
+
+# Numerical
+numpy>=1.24.0
+torch>=2.0.0                # PyTorch (CPU build is fine)
+torchvision>=0.15.0
+
+# Misc utilities (pulled in automatically, listed for clarity)
+# pyyaml, tqdm, psutil, requests — via ultralytics
