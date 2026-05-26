@@ -18,7 +18,5 @@ It works even when number plates are unclear by using vehicle features.
 
 ## 🚀 Features
 - Vehicle detection
-- Speed estimation
 - Number plate recognition
 - Image enhancement
-- Vehicle classification
